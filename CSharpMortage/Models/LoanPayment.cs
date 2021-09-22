@@ -9,7 +9,7 @@ namespace CSharpMortage.Models
     {
         public int Month { get; set; }
 
-        //[DisplayFormat(DataFormatString  ="{0:C0}", ApplyFomatInEditMode = true)]
+        //non Bobby use this at a time: [DisplayFormat(DataFormatString  ="{0:C0}", ApplyFomatInEditMode = true)]
         public decimal Payment { get; set; }
         public decimal MonthlyPrincipal { get; set; }
         public decimal MonthlyInterest { get; set; }
