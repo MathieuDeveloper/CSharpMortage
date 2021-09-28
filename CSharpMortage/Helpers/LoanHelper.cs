@@ -26,7 +26,7 @@ namespace CSharpMortage.Helpers
             var monthlyRate = CalcMonthlyRate(loan.Rate);
 
             // loop over each month until we reach the term of the loan
-            for (int month = 0; month <= loan.Term; month++)
+            for (int month = 1; month <= loan.Term; month++)
             {
                 monthlyInterest = CalcMonthlyInterest(balance, monthlyRate);
                 totalInterest += monthlyInterest;
